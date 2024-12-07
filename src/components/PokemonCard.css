@@ -1,0 +1,62 @@
+.pokemon-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    width: 150px;
+    transition: transform 0.3s ease;
+}
+
+.pokemon-card:hover {
+    transform: scale(1.1);
+}
+
+.pokemon-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.pokemon-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.pokemon-types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.pokemon-type {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    color: white;
+    text-transform: capitalize;
+}
+
+.pokemon-type.fire {
+    background-color: #f08030;
+}
+
+.pokemon-type.water {
+    background-color: #6890f0;
+}
+
+.pokemon-type.grass {
+    background-color: #78c850;
+}
+
+.pokemon-type.electric {
+    background-color: #f8d030;
+}
+
+/* Agrega más colores según los tipos de Pokémon */
